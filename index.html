@@ -142,7 +142,7 @@
           mounted() {
             // 把登入時存的 token 拿出來，設定在axios的header裡，並執行checkLogin 確認是否已登入
             const token = document.cookie.replace(
-              /(?:(?:^|.*;\s*)hexToken\s*\=\s*([^;]*).*$)|^.*$/,
+              /(?:(?:^|.*;\s*)hexschool\s*\=\s*([^;]*).*$)|^.*$/,
               "$1"
             );
             // console.log(token);
